@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h1>Caisse</h1>
+    </header>
+    <main>
+        <section id="client">
+
+                <div id="divNbrArticle">
+                    <label for="nbrArticle">Prix de l'article </label>
+                    <input type="number" name="nbrArticle" id="nbrArticle">
+                    <button id="btnNbrArticle">envoie</button>
+                </div>
+
+                <div id="divMonnaieClient">
+                    <label for="monnaieClient">Monnaie du client</label>
+                    <input type="number" name="monnaieClient" id="monnaieClient">
+                    <button id="btnMonnaieClient">Envoie</button>
+                </div>
+        
+        </section>
+
+        <section id="caisse">
+            <div>
+                <h2>Compte-rendu</h2>
+                <span id="compteRendu"></span>
+                <p>Somme</p>
+                <p id="somme"></p>
+            </div>
+
+            <div id="rendu">
+                <p>Monnaie rendu</p>
+                <p id="tab"></p>
+                <span id="totalMonnaieRendu"></span>
+                <span id="10euro"></span>
+                <span id="5euro"></span>
+                <span id="1euro"></span>
+                
+            </div>
+        </section>
+    </main>
+    <script src="./assets/js/app.js"></script>
+</body>
+
+</html>
